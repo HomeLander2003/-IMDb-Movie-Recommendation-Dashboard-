@@ -1,22 +1,43 @@
- IMDb Movie Recommendation Dashboard
+# 🎬 Movie Magic - Streamlit App
 
-A Streamlit-based interactive dashboard that recommends movies using the IMDb Top 1000 dataset. Users can explore dataset insights, filter by genre/year, and get content-based movie recommendations.
+An interactive **Movie Recommendation System + EDA Tool** built with **Python, Streamlit, and Machine Learning**.  
+Upload your movie dataset, explore data insights, and get AI-driven movie recommendations.
 
-**Tech Stack**
--Python 
--Pandas & NumPy
--Scikit-Learn
--Streamlit
--Matplotlib / Seaborn
+---
 
-**Dataset**
-IMDb Top 1000 Movies and TV Shows Dataset:
+## 🚀 Features
+- **Dataset Upload & EDA**
+  - Upload CSV dataset
+  - View datatypes, null values, and duplicates
+  - Data health checks & visualizations
+  - Descriptive statistics with styled tables
 
-**Features (Planned)**
--Dataset overview & visualization
--Interactive filters (genre, rating, year)
--Content-based movie recommendation system
--Clean and user-friendly Streamlit UI
+- **Movie Recommendation System**
+  - **Normal Search** → Genre-based recommendations  
+  - **Hybrid Search** → Genre + KMeans clustering  
+  - Adjustable recommendation count (1–5 movies)
 
-**Status**
-Work in Progress – Final version coming soon!
+---
+
+## 🛠️ Tech Stack
+- **Python**
+- **Streamlit** (UI)
+- **Pandas, NumPy** (Data handling)
+- **Seaborn, Matplotlib** (Visualization)
+- **Scikit-learn** (KMeans clustering, pipelines)
+
+---
+
+## 📦 Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/movie-magic.git
+cd movie-magic
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+
+New feature coming soon.....
