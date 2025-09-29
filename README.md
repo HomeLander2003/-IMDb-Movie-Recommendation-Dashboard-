@@ -25,7 +25,8 @@ Upload your movie dataset, explore data insights, and get AI-driven movie recomm
 - **Pandas, NumPy** (Data handling)
 - **Seaborn, Matplotlib** (Visualization)
 - **Scikit-learn** (KMeans clustering, pipelines)
-
+  
+New feature coming soon.....
 ---
 
 ## 📦 Installation
@@ -40,4 +41,3 @@ pip install -r requirements.txt
 # Run the app
 streamlit run app.py
 
-New feature coming soon.....
